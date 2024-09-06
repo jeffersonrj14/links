@@ -13,7 +13,7 @@ export default function SocialCard() {
           <Card
             icon={<GrMailOption />}
             title='Email'
-            href='/email'
+            href='mailto:jefferson@jeffersonrj.com'
             body='jefferson@jeffersonrj.com'
           />
           <Card icon={<SiGithub />} title='Github' href='/github' />
@@ -22,7 +22,7 @@ export default function SocialCard() {
         </ul>
       </div>
       <div className='mt-6'>
-        <h2 className='text-lg font-medium text-neutral-700 dark:text-neutral-300'>Support me</h2>
+        <h2 className='text-lg font-medium text-neutral-700 dark:text-neutral-300'>Support</h2>
         <ul className='my-2 flex flex-col gap-4'>
           <Card icon={<SiKofi />} title='Ko-Fi' href='/kofi' />
         </ul>

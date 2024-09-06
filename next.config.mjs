@@ -21,11 +21,6 @@ const nextConfig = {
         permanent: true
       },
       {
-        source: '/(email|mail)',
-        destination: 'mailto:jefferson@jeffersonrj.com',
-        permanent: true
-      },
-      {
         source: '/(github|gh|git)',
         destination: 'https://github.com/jeffersonrj14',
         permanent: true

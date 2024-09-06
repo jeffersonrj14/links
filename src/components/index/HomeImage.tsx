@@ -9,6 +9,7 @@ export default function HomeImage() {
         width={80}
         height={80}
         className='h-20 w-20 rounded-full'
+        priority
       />
       <div className='pt-3 text-neutral-100'>
         <h1 className='font-kosugi-maru tracking-widest text-3xl font-bold'>RJ Jefferson</h1>

@@ -66,7 +66,7 @@ export default function RootLayout({ children }: ChildrenProps) {
           {/* Show Screen Size (Development Only)*/}
           <SizeIndicator />
           <div>{children}</div>
-          <div className='rounded-lg border-zinc-800 col-span-12 p-2 flex justify-center items-center bg-transparent border-0 pt-20 pb-10'>
+          <div className='rounded-lg border-zinc-800 col-span-12 p-2 flex justify-center items-center bg-transparent border-0 pt-14 pb-10'>
             <MainFooter />
           </div>
         </div>
