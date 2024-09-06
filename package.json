@@ -18,14 +18,12 @@
   },
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.11.1",
-    "clsx": "^2.1.1",
     "framer-motion": "^11.5.0",
     "next": "14.2.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
     "sharp": "^0.33.5",
-    "swr": "^2.2.5",
     "zod": "^3.23.8"
   },
   "devDependencies": {
@@ -36,10 +34,16 @@
     "eslint-config-next": "14.2.7",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.10",
     "postcss": "^8.4.45",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
     "tailwindcss": "^3.4.10",
     "typescript": "^5.5.4"
+  },
+  "lint-staged": {
+    "*.{cjs,mjs,js,jsx,cts,mts,ts,tsx,json}": "eslint --fix",
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
