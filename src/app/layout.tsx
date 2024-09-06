@@ -16,7 +16,6 @@ export const metadata: Metadata = {
     name: SITE_NAME,
     url: SITE_URL
   },
-  manifest: '/favicon/site.webmanifest',
   keywords: SITE_KEYWORDS,
   openGraph: {
     type: 'website',
@@ -50,29 +49,8 @@ export const metadata: Metadata = {
     ]
   },
   icons: {
-    icon: '/favicon/favicon.ico',
-    shortcut: '/favicon/favicon.ico',
-    apple: [
-      {
-        url: '/favicon/apple-touch-icon.png',
-        sizes: '180x180',
-        type: 'image/png'
-      }
-    ],
-    other: [
-      {
-        rel: 'icon',
-        type: 'image/png',
-        sizes: '16x16',
-        url: '/favicon/favicon-16x16.png'
-      },
-      {
-        rel: 'icon',
-        type: 'image/png',
-        sizes: '32x32',
-        url: '/favicon/favicon-32x32.png'
-      }
-    ]
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico'
   }
 }
 
@@ -85,7 +63,6 @@ export default function RootLayout({ children }: ChildrenProps) {
     <html lang='en-US' suppressHydrationWarning>
       <body className='min-h-screen bg-gradient-to-br from-ternary-dark to-quaternary-green to-65% px-4 pb-12 text-zinc-50'>
         <div>
-          {/* <MainHeader /> */}
           {/* Show Screen Size (Development Only)*/}
           <SizeIndicator />
           <div>{children}</div>
