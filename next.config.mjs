@@ -16,6 +16,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/(template)',
+        destination: 'https://github.com/jeffersonrj14/personal-template-nextjs-app',
+        permanent: true
+      },
+      {
         source: '/(personal|portfolio|personalwebsite|website|personal-website)',
         destination: 'https://jeffersonrj.com',
         permanent: true
