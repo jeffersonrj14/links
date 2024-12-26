@@ -12,7 +12,7 @@ export default function SocialCard() {
           <Card
             icon={<CiGlobe />}
             title='Website'
-            href='https://jeffersonrj.com'
+            href='https://jeffersonrj.com?ref=links.jeffersonrj.com'
             body='https://jeffersonrj.com'
           />
           <Card

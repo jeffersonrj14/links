@@ -51,15 +51,16 @@
     font-style: normal;
   }
 
-  /* ちはやゴシック */
+  /* Sour Gummy */
   @font-face {
-    font-family: 'Chihaya Gothic';
-    src: url('/fonts/chihayagothic/ちはやゴシック.ttf') format('truetype');
+    font-family: 'Sour Gummy';
+    src: url('/fonts/google-fonts/sour_gummy/SourGummy-VariableFont_wdth,wght.ttf') format('truetype');
     font-display: swap;
     font-style: normal;
   }
 
-  .font-chihayagothic {
-    font-family: 'Chihaya Gothic';
+  .font-sour-gummy {
+    font-family: 'Sour Gummy', sans-serif;
+    font-style: normal;
   }
 }

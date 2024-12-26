@@ -7,12 +7,10 @@
   
   1. [Kosugi Maru](https://fonts.google.com/specimen/Kosugi+Maru?query=kosugi&noto.query=maru)
   2. [Noto Sans Japanese](https://fonts.google.com/noto/specimen/Noto+Sans+JP?query=noto+san)
+  3. [Sour Gummy](https://fonts.google.com/specimen/Sour+Gummy)
+
 </details>
-<br />
-<details>
-  <summary>Other Fonts</summary>
-  
-  1. Chihaya Gothic (ちはやゴシック)
-      - [Font Download Link](https://welina.xyz/font/tegaki/gothic/)
-      - Author: [ちはや](https://welina.xyz/)
-</details>
+
+## License
+
+[Apache License 2.0](/LICENSE)
