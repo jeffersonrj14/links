@@ -54,7 +54,8 @@
   /* Sour Gummy */
   @font-face {
     font-family: 'Sour Gummy';
-    src: url('/fonts/google-fonts/sour_gummy/SourGummy-VariableFont_wdth,wght.ttf') format('truetype');
+    src: url('/fonts/google-fonts/sour_gummy/SourGummy-VariableFont_wdth,wght.ttf')
+      format('truetype');
     font-display: swap;
     font-style: normal;
   }

@@ -1,6 +1,6 @@
 import Card from '@/components/ui/Card'
 import { SiDiscord, SiGithub, SiKofi } from 'react-icons/si'
-import { FaXTwitter } from 'react-icons/fa6'
+import { FaXTwitter, FaBluesky } from 'react-icons/fa6'
 import { GrMailOption } from 'react-icons/gr'
 import { CiGlobe } from 'react-icons/ci'
 
